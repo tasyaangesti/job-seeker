@@ -1,3 +1,4 @@
+import CardJob from "./section/CardJob";
 import Category from "./section/Category";
 import Search from "./section/Search";
 
@@ -7,6 +8,7 @@ export default function Dashboard() {
       <h1 className="text-xl font-semibold mb-[10px]"> Cari Lowongan Kerja</h1>
       <Search />
       <Category />
+      <CardJob />
     </div>
   );
 }
