@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Marketing",
+    "imgUrl": "../assets/marketing-sosmed.png"
+  },
+  {
+    "name": "IT & Engineering",
+    "imgUrl": "../assets/it-engineering.png"
+  },
+  {
+    "name": "Design & Creative",
+    "imgUrl": "../assets/design-creative.png"
+  },
+  {
+    "name": "Health & Science",
+    "imgUrl": "../assets/health-science.png"
+  },
+  {
+    "name": "Finance & Accounting",
+    "imgUrl": "../assets/finance-accounting.png"
+  },
+  {
+    "name": "Business Development & Sales",
+    "imgUrl": "../assets/business-dev-sales.png"
+  },
+  {
+    "name": "Data & Product Management",
+    "imgUrl": "../assets/data-product-management.png"
+  },
+  {
+    "name": "Admin & Operations",
+    "imgUrl": "../assets/admin.png"
+  }
+]

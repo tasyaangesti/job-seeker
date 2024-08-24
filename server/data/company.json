@@ -1,0 +1,170 @@
+[
+  {
+    "name": "PT Xsis Mitra Utama",
+    "address": "Jl. TB Simatupang No. 38, Jakarta Selatan",
+    "industry": "IT & Engineering",
+    "description": "PT Xsis Mitra Utama adalah perusahaan IT yang menyediakan solusi teknologi dan pengembangan perangkat lunak untuk berbagai industri.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Global Trade Co.",
+    "address": "Jl. Yos Sudarso No. 45, Jakarta Utara",
+    "industry": "Business Development & Sales",
+    "description": "Global Trade Co. adalah perusahaan yang bergerak di bidang perdagangan internasional, menghubungkan produsen dengan pasar global.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Creative Ads",
+    "address": "Jl. Ir. H. Juanda No. 12, Bandung",
+    "industry": "Marketing",
+    "description": "Creative Ads adalah agensi pemasaran digital yang mengkhususkan diri dalam strategi pemasaran kreatif untuk meningkatkan brand awareness.",
+    "company_scale": "1-50 Karyawan"
+  },
+  {
+    "name": "Tech Solutions",
+    "address": "Jl. Dipatiukur No. 25, Bandung",
+    "industry": "IT & Engineering",
+    "description": "Tech Solutions adalah perusahaan pengembangan perangkat lunak yang menawarkan solusi teknologi inovatif untuk klien global.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Tech Ventures",
+    "address": "Jl. Daan Mogot No. 10, Jakarta Barat",
+    "industry": "Business Development & Sales",
+    "description": "Tech Ventures adalah perusahaan pengembangan bisnis yang fokus pada investasi dan kemitraan strategis dalam sektor teknologi.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Digital Innovators",
+    "address": "Jl. Gubeng No. 17, Surabaya",
+    "industry": "IT & Engineering",
+    "description": "Digital Innovators adalah perusahaan teknologi yang berfokus pada inovasi digital dan pengembangan solusi perangkat lunak canggih.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Office Solutions",
+    "address": "Jl. Kertajaya No. 21, Surabaya",
+    "industry": "Admin & Operations",
+    "description": "Office Solutions adalah penyedia layanan administrasi dan solusi manajemen kantor untuk bisnis kecil dan menengah.",
+    "company_scale": "1-50 Karyawan"
+  },
+  {
+    "name": "Creative Labs",
+    "address": "Jl. Malioboro No. 15, Yogyakarta",
+    "industry": "Design & Creative",
+    "description": "Creative Labs adalah studio desain yang menggabungkan kreativitas dengan teknologi untuk menciptakan solusi desain inovatif.",
+    "company_scale": "1-50 Karyawan"
+  },
+  {
+    "name": "Brand Builders",
+    "address": "Jl. Prawirotaman No. 8, Yogyakarta",
+    "industry": "Marketing",
+    "description": "Brand Builders adalah perusahaan yang mengkhususkan diri dalam pembangunan merek dan strategi pemasaran terpadu.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "SmartTech",
+    "address": "Jl. Pemuda No. 18, Jakarta Timur",
+    "industry": "IT & Engineering",
+    "description": "SmartTech adalah perusahaan teknologi yang menawarkan solusi inovatif dalam pengembangan aplikasi mobile dan web.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Retail Experts",
+    "address": "Jl. Pandanaran No. 30, Semarang",
+    "industry": "Business Development & Sales",
+    "description": "Retail Experts adalah perusahaan yang menyediakan layanan konsultasi dan solusi ritel untuk bisnis di seluruh Indonesia.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Data Insights",
+    "address": "Jl. Gajahmada No. 19, Semarang",
+    "industry": "Data & Product Management",
+    "description": "Data Insights adalah perusahaan yang berfokus pada analisis data dan pengembangan produk berbasis data untuk berbagai industri.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Digital Growth",
+    "address": "Jl. Mampang Prapatan No. 32, Jakarta Selatan",
+    "industry": "Marketing",
+    "description": "Digital Growth adalah agensi pemasaran digital yang membantu bisnis meningkatkan pertumbuhan melalui strategi pemasaran berbasis data.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Visual Creations",
+    "address": "Jl. Tanjung Duren No. 11, Jakarta Barat",
+    "industry": "Design & Creative",
+    "description": "Visual Creations adalah studio desain grafis yang menawarkan solusi kreatif untuk kebutuhan branding dan pemasaran.",
+    "company_scale": "1-50 Karyawan"
+  },
+  {
+    "name": "Tech Innovators",
+    "address": "Jl. Dewi Sartika No. 27, Jakarta Timur",
+    "industry": "IT & Engineering",
+    "description": "Tech Innovators adalah perusahaan teknologi yang mengembangkan solusi perangkat lunak inovatif untuk berbagai industri.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Banking Solutions",
+    "address": "Jl. Pluit Raya No. 5, Jakarta Utara",
+    "industry": "Finance & Accounting",
+    "description": "Banking Solutions adalah perusahaan yang menyediakan layanan keuangan dan analisis untuk sektor perbankan.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Innovative Products",
+    "address": "Jl. Fatmawati No. 29, Jakarta Selatan",
+    "industry": "Data & Product Management",
+    "description": "Innovative Products adalah perusahaan pengembangan produk yang berfokus pada inovasi dan teknologi terbaru.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Corporate Services",
+    "address": "Jl. Raya Darmo No. 22, Surabaya",
+    "industry": "Admin & Operations",
+    "description": "Corporate Services adalah perusahaan yang menyediakan layanan administrasi dan operasional untuk perusahaan besar.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Creative Minds",
+    "address": "Jl. Cihampelas No. 14, Bandung",
+    "industry": "Marketing",
+    "description": "Creative Minds adalah agensi kreatif yang menggabungkan strategi pemasaran dengan pendekatan kreatif untuk menghasilkan kampanye yang berdampak.",
+    "company_scale": "1-50 Karyawan"
+  },
+  {
+    "name": "Data Analysts Inc.",
+    "address": "Jl. Letjen S. Parman No. 20, Jakarta Barat",
+    "industry": "Data & Product Management",
+    "description": "Data Analysts Inc. adalah perusahaan yang menyediakan layanan analisis data dan konsultasi untuk pengembangan produk berbasis data.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "HealthCare Co.",
+    "address": "Jl. RS Fatmawati No. 10, Jakarta Selatan",
+    "industry": "Health & Science",
+    "description": "HealthCare Co. adalah perusahaan yang bergerak di bidang kesehatan, menyediakan solusi kesehatan untuk masyarakat luas.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "Consulting Firm",
+    "address": "Jl. Danau Sunter No. 35, Jakarta Utara",
+    "industry": "Finance & Accounting",
+    "description": "Consulting Firm adalah perusahaan konsultasi yang memberikan solusi bisnis dan keuangan untuk berbagai industri.",
+    "company_scale": "51-200 Karyawan"
+  },
+  {
+    "name": "Logistics Group",
+    "address": "Jl. Bekasi Raya No. 18, Jakarta Timur",
+    "industry": "Admin & Operations",
+    "description": "Logistics Group adalah perusahaan yang menyediakan solusi logistik dan manajemen rantai pasokan untuk klien di seluruh Indonesia.",
+    "company_scale": "201-500 Karyawan"
+  },
+  {
+    "name": "SecureTech",
+    "address": "Jl. Meruya Ilir No. 9, Jakarta Barat",
+    "industry": "IT & Engineering",
+    "description": "SecureTech adalah perusahaan yang berfokus pada pengembangan solusi keamanan siber untuk melindungi data dan infrastruktur digital.",
+    "company_scale": "51-200 Karyawan"
+  }
+]

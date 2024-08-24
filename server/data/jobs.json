@@ -1,0 +1,419 @@
+[
+  {
+    "position": "Product Manager",
+    "company": "PT Xsis Mitra Utama",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Selatan",
+    "experienceOfWork": "5+ Tahun Pengalaman",
+    "salary": "RP15.000.000",
+    "description": "Mengelola siklus hidup produk dan memastikan produk memenuhi kebutuhan pasar.",
+    "qualification": [
+      "Pengalaman dalam manajemen produk",
+      "Kemampuan analisis pasar",
+      "Kemampuan manajerial dan perencanaan produk",
+      "Kemampuan berkomunikasi dengan pemangku kepentingan",
+      "Pengalaman dalam pengembangan produk"
+    ],
+    "deadline": "10 Oktober",
+    "categoryId": 7,
+    "companyId": 1
+  },
+  {
+    "position": "Content Writer",
+    "company": "Creative Ads",
+    "typeOfWork": "Paruh Waktu",
+    "location": "Bandung",
+    "experienceOfWork": "1-2 Tahun Pengalaman",
+    "salary": "RP4.500.000",
+    "description": "Menulis konten berkualitas untuk blog, website, dan media sosial.",
+    "qualification": [
+      "Pengalaman dalam penulisan konten",
+      "Kemampuan menulis yang baik dan kreatif",
+      "Pengalaman dalam SEO",
+      "Kemampuan riset dan pemahaman topik",
+      "Kemampuan mengelola deadline"
+    ],
+    "deadline": "15 September",
+    "categoryId": 1,
+    "companyId": 3
+  },
+  {
+    "position": "Graphic Designer",
+    "company": "Creative Labs",
+    "typeOfWork": "Kontrak",
+    "location": "Yogyakarta",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP6.500.000",
+    "description": "Merancang materi grafis untuk pemasaran dan media digital.",
+    "qualification": [
+      "Pengalaman dengan alat desain grafis seperti Adobe Photoshop atau Illustrator",
+      "Kemampuan desain yang kreatif",
+      "Kemampuan untuk bekerja dengan deadline ketat",
+      "Pengalaman dalam desain media sosial",
+      "Kemampuan komunikasi visual"
+    ],
+    "deadline": "20 September",
+    "categoryId": 3,
+    "companyId": 8
+  },
+  {
+    "position": "HR Generalist",
+    "company": "Office Solutions",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Surabaya",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP7.000.000",
+    "description": "Mengelola berbagai fungsi HR termasuk rekrutmen, administrasi karyawan, dan kepatuhan.",
+    "qualification": [
+      "Pengalaman dalam HR atau SDM",
+      "Kemampuan dalam administrasi dan rekrutmen",
+      "Kemampuan komunikasi yang baik",
+      "Pengetahuan tentang undang-undang ketenagakerjaan",
+      "Kemampuan manajemen konflik"
+    ],
+    "deadline": "5 Oktober",
+    "categoryId": 8,
+    "companyId": 7
+  },
+  {
+    "position": "Event Coordinator",
+    "company": "Creative Minds",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Bandung",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP8.000.000",
+    "description": "Menyusun dan mengelola acara perusahaan dari awal hingga akhir.",
+    "qualification": [
+      "Pengalaman dalam koordinasi acara",
+      "Kemampuan manajerial dan perencanaan",
+      "Kemampuan komunikasi yang baik",
+      "Pengalaman dengan vendor dan logistik acara",
+      "Kemampuan multitasking"
+    ],
+    "deadline": "1 Oktober",
+    "categoryId": 6,
+    "companyId": 19
+  },
+  {
+    "position": "Financial Analyst",
+    "company": "Data Insights",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Semarang",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP8.500.000",
+    "description": "Menganalisis data keuangan dan membuat rekomendasi untuk meningkatkan kesehatan finansial perusahaan.",
+    "qualification": [
+      "Pengalaman dalam analisis keuangan",
+      "Kemampuan dalam penggunaan Excel dan alat analisis finansial",
+      "Kemampuan pemecahan masalah",
+      "Pengetahuan dalam akuntansi dan laporan keuangan",
+      "Kemampuan komunikasi dan presentasi"
+    ],
+    "deadline": "15 September",
+    "categoryId": 5,
+    "companyId": 12
+  },
+  {
+    "position": "IT Support Specialist",
+    "company": "Tech Solutions",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Bandung",
+    "experienceOfWork": "Fresh Graduate",
+    "salary": "RP5.000.000",
+    "description": "Memberikan dukungan teknis untuk perangkat keras dan perangkat lunak.",
+    "qualification": [
+      "Lulusan baru",
+      "Pengetahuan dasar tentang perangkat keras dan perangkat lunak",
+      "Kemampuan troubleshooting",
+      "Kemampuan komunikasi yang baik",
+      "Kemampuan bekerja dengan tim dan manajemen waktu"
+    ],
+    "deadline": "30 September",
+    "categoryId": 2,
+    "companyId": 4
+  },
+  {
+    "position": "Product Designer",
+    "company": "Tech Ventures",
+    "typeOfWork": "Kontrak",
+    "location": "Jakarta Barat",
+    "experienceOfWork": "1-2 Tahun Pengalaman",
+    "salary": "RP6.000.000",
+    "description": "Merancang produk yang memenuhi kebutuhan pengguna dan memastikan desain yang fungsional.",
+    "qualification": [
+      "Pengalaman dalam desain produk",
+      "Kemampuan menggunakan alat desain seperti Figma atau Adobe XD",
+      "Kemampuan prototyping dan wireframing",
+      "Kemampuan bekerja dengan tim pengembangan",
+      "Pemahaman tentang penelitian UX"
+    ],
+    "deadline": "10 Oktober",
+    "categoryId": 3,
+    "companyId": 5
+  },
+  {
+    "position": "Project Coordinator",
+    "company": "Tech Ventures",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Barat",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP7.500.000",
+    "description": "Menyusun, mengatur, dan mengelola proyek dari awal hingga akhir.",
+    "qualification": [
+      "Pengalaman dalam manajemen proyek",
+      "Kemampuan organisasi yang kuat",
+      "Kemampuan komunikasi dan kepemimpinan",
+      "Kemampuan untuk bekerja di bawah tekanan",
+      "Kemampuan membuat laporan proyek"
+    ],
+    "deadline": "5 Oktober",
+    "categoryId": 6,
+    "companyId": 5
+  },
+  {
+    "position": "Customer Service Representative",
+    "company": "Tech Solutions",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Bandung",
+    "experienceOfWork": "Fresh Graduate",
+    "salary": "RP4.500.000",
+    "description": "Menangani pertanyaan pelanggan dan memberikan solusi untuk masalah mereka.",
+    "qualification": [
+      "Lulusan baru",
+      "Kemampuan komunikasi yang baik",
+      "Kemampuan menangani keluhan",
+      "Kemampuan dalam penggunaan sistem customer service",
+      "Keterampilan interpersonal"
+    ],
+    "deadline": "30 September",
+    "categoryId": 8,
+    "companyId": 4
+  },
+  {
+    "position": "Content Marketing Specialist",
+    "company": "Global Trade Co.",
+    "typeOfWork": "Paruh Waktu",
+    "location": "Jakarta Utara",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP6.000.000",
+    "description": "Membuat dan mengelola konten pemasaran yang mendukung strategi perusahaan.",
+    "qualification": [
+      "Pengalaman dalam pemasaran konten",
+      "Kemampuan menulis dan kreativitas",
+      "Pengetahuan tentang SEO",
+      "Kemampuan dalam analisis dan pelaporan kinerja konten",
+      "Kemampuan berkolaborasi dengan tim pemasaran"
+    ],
+    "deadline": "10 Oktober",
+    "categoryId": 1,
+    "companyId": 2
+  },
+  {
+    "position": "SEO Specialist",
+    "company": "Digital Innovators",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Surabaya",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP8.000.000",
+    "description": "Meningkatkan visibilitas situs web melalui strategi SEO yang efektif.",
+    "qualification": [
+      "Kemampuan dalam alat analisis SEO",
+      "Kemampuan untuk melakukan riset kata kunci",
+      "Kemampuan dalam pembuatan konten SEO-friendly",
+      "Kemampuan dalam pelaporan dan analisis kinerja SEO"
+    ],
+    "deadline": "25 September",
+    "categoryId": 1,
+    "companyId": 6
+  },
+  {
+    "position": "Web Developer",
+    "company": "Tech Innovators",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Timur",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP10.000.000",
+    "description": "Mengembangkan dan memelihara situs web perusahaan dengan teknologi terbaru.",
+    "qualification": [
+      "Pengalaman dalam pengembangan web",
+      "Kemampuan dalam HTML, CSS, dan JavaScript",
+      "Pengalaman dengan framework dan alat pengembangan web",
+      "Kemampuan untuk mengatasi masalah teknis",
+      "Kemampuan beradaptasi dengan teknologi baru"
+    ],
+    "deadline": "10 Oktober",
+    "categoryId": 2,
+    "companyId": 15
+  },
+  {
+    "position": "UX/UI Designer",
+    "company": "Visual Creations",
+    "typeOfWork": "Kontrak",
+    "location": "Jakarta Barat",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP7.000.000",
+    "description": "Merancang pengalaman pengguna dan antarmuka untuk aplikasi dan situs web.",
+    "qualification": [
+      "Pengalaman dalam desain UX/UI",
+      "Kemampuan menggunakan alat desain seperti Figma atau Sketch",
+      "Kemampuan dalam penelitian pengguna dan pengujian",
+      "Kemampuan prototyping",
+      "Kemampuan kolaborasi dengan tim pengembangan"
+    ],
+    "deadline": "20 September",
+    "categoryId": 3,
+    "companyId": 14
+  },
+  {
+    "position": "Business Analyst",
+    "company": "Innovative Products",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Selatan",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP9.000.000",
+    "description": "Menganalisis dan mengelola data untuk mendukung keputusan bisnis.",
+    "qualification": [
+      "Pengalaman dalam analisis bisnis",
+      "Kemampuan menggunakan alat analisis data",
+      "Kemampuan komunikasi yang baik",
+      "Kemampuan pemecahan masalah",
+      "Kemampuan dalam perencanaan strategis"
+    ],
+    "deadline": "15 Oktober",
+    "categoryId": 7,
+    "companyId": 17
+  },
+  {
+    "position": "Banking Relationship Manager",
+    "company": "Banking Solutions",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Utara",
+    "experienceOfWork": "5+ Tahun Pengalaman",
+    "salary": "RP12.000.000",
+    "description": "Membangun dan memelihara hubungan dengan klien bank untuk meningkatkan layanan dan kepuasan pelanggan.",
+    "qualification": [
+      "Pengalaman dalam manajemen hubungan pelanggan",
+      "Pengetahuan tentang produk perbankan",
+      "Kemampuan komunikasi dan negosiasi",
+      "Kemampuan analisis dan laporan",
+      "Kemampuan membangun jaringan"
+    ],
+    "deadline": "30 September",
+    "categoryId": 8,
+    "companyId": 16
+  },
+  {
+    "position": "Digital Marketing Specialist",
+    "company": "Corporate Services",
+    "typeOfWork": "Paruh Waktu",
+    "location": "Jakarta Barat",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP6.500.000",
+    "description": "Mengelola dan mengimplementasikan strategi pemasaran digital untuk meningkatkan visibilitas online perusahaan.",
+    "qualification": [
+      "Pengalaman dalam pemasaran digital",
+      "Kemampuan dalam SEO dan SEM",
+      "Kemampuan menggunakan alat pemasaran digital",
+      "Kemampuan analisis kinerja kampanye",
+      "Kemampuan kreatif dan strategis"
+    ],
+    "deadline": "10 Oktober",
+    "categoryId": 1,
+    "companyId": 18
+  },
+  {
+    "position": "Operations Manager",
+    "company": "Logistics Group",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Timur",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP11.000.000",
+    "description": "Mengelola operasi logistik dan memastikan efisiensi dalam rantai pasokan.",
+    "qualification": [
+      "Pengalaman dalam manajemen operasi",
+      "Pengetahuan tentang logistik dan rantai pasokan",
+      "Kemampuan manajerial yang kuat",
+      "Kemampuan analisis dan pemecahan masalah",
+      "Kemampuan komunikasi dan negosiasi"
+    ],
+    "deadline": "25 Oktober",
+    "categoryId": 8,
+    "companyId": 23
+  },
+  {
+    "position": "Data Scientist",
+    "company": "Data Analysts Inc.",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Barat",
+    "experienceOfWork": "4-5 Tahun Pengalaman",
+    "salary": "RP13.000.000",
+    "description": "Menganalisis data besar dan memberikan wawasan untuk mendukung pengambilan keputusan bisnis.",
+    "qualification": [
+      "Pengalaman dalam analisis data besar",
+      "Kemampuan dalam menggunakan alat analisis seperti Python atau R",
+      "Kemampuan pemodelan data dan statistik",
+      "Kemampuan komunikasi dan presentasi hasil analisis",
+      "Kemampuan bekerja dengan tim lintas fungsi"
+    ],
+    "deadline": "10 Oktober",
+    "categoryId": 7,
+    "companyId": 20
+  },
+  {
+    "position": "Healthcare Administrator",
+    "company": "HealthCare Co.",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Selatan",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP8.500.000",
+    "description": "Mengelola administrasi operasional di fasilitas kesehatan dan memastikan kepatuhan terhadap regulasi kesehatan.",
+    "qualification": [
+      "Pengalaman dalam administrasi kesehatan",
+      "Pengetahuan tentang regulasi kesehatan",
+      "Kemampuan manajerial dan organisasi",
+      "Kemampuan komunikasi dan interpersonal",
+      "Kemampuan analisis dan pemecahan masalah"
+    ],
+    "deadline": "20 Oktober",
+    "categoryId": 8,
+    "companyId": 21
+  },
+  {
+    "position": "Consulting Analyst",
+    "company": "Consulting Firm",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Utara",
+    "experienceOfWork": "2-3 Tahun Pengalaman",
+    "salary": "RP9.500.000",
+    "description": "Memberikan analisis dan rekomendasi untuk solusi bisnis berdasarkan kebutuhan klien.",
+    "qualification": [
+      "Pengalaman dalam konsultasi atau analisis bisnis",
+      "Kemampuan dalam penelitian dan analisis data",
+      "Kemampuan komunikasi dan presentasi",
+      "Kemampuan beradaptasi dengan berbagai industri",
+      "Kemampuan memecahkan masalah dan memberikan solusi"
+    ],
+    "deadline": "5 Oktober",
+    "categoryId": 7,
+    "companyId": 22
+  },
+  {
+    "position": "Security Analyst",
+    "company": "SecureTech",
+    "typeOfWork": "Penuh Waktu",
+    "location": "Jakarta Barat",
+    "experienceOfWork": "3-4 Tahun Pengalaman",
+    "salary": "RP10.000.000",
+    "description": "Menganalisis dan melindungi sistem keamanan TI dari ancaman dan serangan.",
+    "qualification": [
+      "Pengalaman dalam analisis keamanan TI",
+      "Kemampuan menggunakan alat keamanan jaringan",
+      "Kemampuan pemecahan masalah dan analisis risiko",
+      "Kemampuan komunikasi yang baik",
+      "Pengetahuan tentang protokol keamanan dan kepatuhan"
+    ],
+    "deadline": "15 Oktober",
+    "categoryId": 2,
+    "companyId": 24
+  }
+]
