@@ -90,6 +90,25 @@ class JobController {
       }
     }
   }
+
+  static async getCategoryById(req, res) {
+    try {
+      const { id } = req.params;
+      const getDetailCategory = await Category.findByPk(id);
+      if (!getDetailCategory) {
+        throw { code: 404, message: "Data not found" };
+      }
+
+      res.status(200).json(getDetailCategory);
+    } catch (error) {
+      console.log(error);
+      if (error.hasOwnProperty("code")) {
+        res.status(error.code).json({ message: error.message });
+      } else {
+        res.status(500).json({ message: "Internal Server Error" });
+      }
+    }
+  }
 }
 
 module.exports = JobController;

@@ -7,5 +7,7 @@ job.get("/getAllCompany", JobController.getCompany);
 job.get("/getAllCategory", JobController.getCategory);
 job.get("/getDetailJob/:id", JobController.getJobById);
 job.get("/getDetailCompany/:id", JobController.getCompanyById);
+job.get("/getDetailCategory/:id", JobController.getCategoryById);
+
 
 module.exports = job;
