@@ -1,108 +1,29 @@
+import { useEffect, useState } from "react";
+import axios from "axios";
 import { AiOutlineUser } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
 import { PiMoneyWavyLight } from "react-icons/pi";
 
-const jobs = [
-  {
-    position: "Full Stack Developer",
-    company: "PT Xsis Mitra Utama",
-    typeOfWork: "Penuh Waktu",
-    location: "Jakarta",
-    experienceOfWork: "Fresh Graduate",
-    salary: "RP5.500.000",
-  },
-  {
-    position: "Sales Executive",
-    company: "Global Trade Co.",
-    typeOfWork: "Penuh Waktu",
-    location: "Jakarta",
-    experienceOfWork: "2-3 Tahun Pengalaman",
-    salary: "RP6.000.000",
-  },
-  {
-    position: "Digital Marketing Specialist",
-    company: "Creative Ads",
-    typeOfWork: "Paruh Waktu",
-    location: "Bandung",
-    experienceOfWork: "1-2 Tahun Pengalaman",
-    salary: "RP5.500.000",
-  },
-  {
-    position: "Frontend Developer",
-    company: "Tech Solutions",
-    typeOfWork: "Paruh Waktu",
-    location: "Bandung",
-    experienceOfWork: "2-3 Tahun Pengalaman",
-    salary: "RP7.000.000",
-  },
-  {
-    position: "Business Development Manager",
-    company: "Tech Ventures",
-    typeOfWork: "Penuh Waktu",
-    location: "Jakarta",
-    experienceOfWork: "4-5 Tahun Pengalaman",
-    salary: "RP10.000.000",
-  },
-  {
-    position: "Backend Developer",
-    company: "Digital Innovators",
-    typeOfWork: "Kontrak",
-    location: "Surabaya",
-    experienceOfWork: "4-5 Tahun Pengalaman",
-    salary: "RP10.000.000",
-  },
-  {
-    position: "Administrative Assistant",
-    company: "Office Solutions",
-    typeOfWork: "Penuh Waktu",
-    location: "Surabaya",
-    experienceOfWork: "Fresh Graduate",
-    salary: "RP4.500.000",
-  },
-  {
-    position: "UI/UX Designer",
-    company: "Creative Labs",
-    typeOfWork: "Kontrak",
-    location: "Yogyakarta",
-    experienceOfWork: "1-2 Tahun Pengalaman",
-    salary: "RP6.500.000",
-  },
-  {
-    position: "Marketing Coordinator",
-    company: "Brand Builders",
-    typeOfWork: "Kontrak",
-    location: "Yogyakarta",
-    experienceOfWork: "3-4 Tahun Pengalaman",
-    salary: "RP7.000.000",
-  },
-  {
-    position: "Mobile App Developer",
-    company: "SmartTech",
-    typeOfWork: "Penuh Waktu",
-    location: "Jakarta",
-    experienceOfWork: "2-3 Tahun Pengalaman",
-    salary: "RP8.000.000",
-  },
-  {
-    position: "Sales Manager",
-    company: "Retail Experts",
-    typeOfWork: "Penuh Waktu",
-    location: "Semarang",
-    experienceOfWork: "5+ Tahun Pengalaman",
-    salary: "RP12.000.000",
-  },
-  {
-    position: "Data Analyst",
-    company: "Data Insights",
-    typeOfWork: "Penuh Waktu",
-    location: "Semarang",
-    experienceOfWork: "Fresh Graduate",
-    salary: "RP6.000.000",
-  },
-];
-
 export default function CardJob() {
+  const [jobs, setJobs] = useState([]);
+
+  const fetchJobs = async (jobs) => {
+    try {
+      const response = await axios.get("http://localhost:3000/getAllJobs");
+      const data = response.data;
+      // console.log(data, ">> fetch job");
+
+      setJobs(data);
+    } catch (error) {
+      console.log(error, ">> error fetch job");
+    }
+  };
+
+  useEffect(() => {
+    fetchJobs();
+  }, []);
+
   return (
     <div className="py-">
       <h1 className="text-lg font-semibold my-[20px]"> Eksplor Job</h1>
