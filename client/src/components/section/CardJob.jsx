@@ -5,6 +5,7 @@ import { IoLocationOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
 import { PiMoneyWavyLight } from "react-icons/pi";
 import { FaRegBookmark } from "react-icons/fa";
+import { formatDistanceToNow } from "date-fns";
 
 export default function CardJob() {
   const [jobs, setJobs] = useState([]);
@@ -45,11 +46,13 @@ export default function CardJob() {
                   <p className="text-gray-600 mb-1"> {item.company}</p>
                 </div>
                 <div className="ml-auto mt-2">
-                  <FaRegBookmark />
+                  <a href="">
+                    <FaRegBookmark />
+                  </a>
                 </div>
               </div>
               {/* detail */}
-              <div className="mx-6 mt-4">
+              <div className="mx-6 mt-4 mb-2">
                 <div className="my-1 flex flex-row">
                   <AiOutlineUser />
                   <p className="ml-2 -mt-1"> {item.typeOfWork}</p>
@@ -66,6 +69,15 @@ export default function CardJob() {
                   <PiMoneyWavyLight />
                   <p className="ml-2 -mt-1"> {item.salary}</p>
                 </div>
+              </div>
+
+              {/* waktu publish */}
+              <div className="bg-[#8ecdfd] mx-5 rounded-full w-[120px] py-[3px]">
+                <h1 className="text-[#03346E] font-semibold text-center text-sm">
+                  {formatDistanceToNow(new Date(item.createdAt), {
+                    addSuffix: true,
+                  })}
+                </h1>
               </div>
             </div>
           ))}
