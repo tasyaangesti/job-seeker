@@ -1,5 +1,5 @@
 const { where } = require("sequelize");
-const { Job, Company, Category, Bookmark } = require("../models");
+const { Job, Company, Category, Bookmark, Application } = require("../models");
 
 class JobController {
   static async getAllJob(req, res) {
@@ -158,6 +158,48 @@ class JobController {
 
       await bookmark.destroy();
       res.status(200).json({ message: "Bookmark removed successfully" });
+    } catch (error) {
+      console.log(error);
+      if (error.hasOwnProperty("code")) {
+        res.status(error.code).json({ message: error.message });
+      } else {
+        res.status(500).json({ message: "Internal Server Error" });
+      }
+    }
+  }
+
+  static async addApplication(req, res) {
+    try {
+      const { jobId } = req.params;
+      // console.log(jobId, ">> jobId");
+      const userId = req.user.id;
+      // console.log(userId, ">> userid");
+
+      const { cover_letter } = req.body;
+
+      const resume = req.file ? req.file.path : null;
+      console.log(req.file, ">> resume fileeee");
+
+      const existingApplication = await Application.findOne({
+        where: { userId, jobId },
+      });
+
+      if (existingApplication) {
+        throw { code: 400, message: "You have already applied for this job" };
+      }
+
+      const newApplication = await Application.create({
+        userId,
+        jobId,
+        cover_letter,
+        resume,
+        status: "applied",
+      });
+
+      res.status(201).json({
+        message: "Application submitted successfully",
+        application: newApplication,
+      });
     } catch (error) {
       console.log(error);
       if (error.hasOwnProperty("code")) {
