@@ -1,6 +1,6 @@
-import CardJob from "./section/CardJob";
-import Category from "./section/Category";
-import Search from "./section/Search";
+import CardJob from "../components/CardJob";
+import Category from "../components/Category";
+import Search from "../components/Search";
 
 export default function Dashboard() {
   return (
