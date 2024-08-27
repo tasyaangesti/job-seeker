@@ -10,7 +10,7 @@ export default function Footer() {
               className="flex items-center mb-5 font-medium text-gray-900 lg:w-auto lg:items-center lg:justify-center md:mb-0"
             >
               <span className="mx-auto text-xl font-black leading-none text-gray-900 select-none">
-                AI JOBS<span className="text-[#FF9100]">.</span>
+                FEN JOB<span className="text-[#FF9100]">.</span>
               </span>
             </a>
           </div>
@@ -19,7 +19,7 @@ export default function Footer() {
           <p className="text-sm text-gray-500">
             © 2024{" "}
             <a href="https://pagedone.io/" className="hover:underline">
-              AI JOBS
+              FEN JOB
             </a>
             . All rights reserved.
           </p>
