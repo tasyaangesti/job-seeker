@@ -1,4 +1,5 @@
-const { Job, Company, Category } = require("../models");
+const { where } = require("sequelize");
+const { Job, Company, Category, Bookmark } = require("../models");
 
 class JobController {
   static async getAllJob(req, res) {
@@ -100,6 +101,63 @@ class JobController {
       }
 
       res.status(200).json(getDetailCategory);
+    } catch (error) {
+      console.log(error);
+      if (error.hasOwnProperty("code")) {
+        res.status(error.code).json({ message: error.message });
+      } else {
+        res.status(500).json({ message: "Internal Server Error" });
+      }
+    }
+  }
+
+  static async addBookmark(req, res) {
+    try {
+      const { jobId } = req.params;
+      // console.log(jobId, ">> jobId");
+      const userId = req.user.id;
+      // console.log(userId, ">> userId");
+
+      const existingBookmark = await Bookmark.findOne({
+        where: { userId, jobId },
+      });
+
+      if (existingBookmark) {
+        throw { code: 404, message: "Job is already bookmarked" };
+      }
+
+      const newBookmark = await Bookmark.create({ userId, jobId });
+
+      res
+        .status(201)
+        .json({ message: "Job bookmarked successfully", newBookmark });
+    } catch (error) {
+      console.log(error);
+      if (error.hasOwnProperty("code")) {
+        res.status(error.code).json({ message: error.message });
+      } else {
+        res.status(500).json({ message: "Internal Server Error" });
+      }
+    }
+  }
+
+  static async removeBookmark(req, res) {
+    try {
+      const { jobId } = req.params;
+      console.log(jobId, ">> jobId");
+      const userId = req.user.id;
+      console.log(userId, ">> userId");
+
+      const bookmark = await Bookmark.findOne({
+        where: { userId, jobId },
+      });
+
+      if (!bookmark) {
+        throw { code: 404, message: "Bookmark not found" };
+      }
+
+      await bookmark.destroy();
+      res.status(200).json({ message: "Bookmark removed successfully" });
     } catch (error) {
       console.log(error);
       if (error.hasOwnProperty("code")) {
