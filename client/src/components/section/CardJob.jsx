@@ -4,11 +4,12 @@ import { AiOutlineUser } from "react-icons/ai";
 import { IoLocationOutline } from "react-icons/io5";
 import { MdWorkOutline } from "react-icons/md";
 import { PiMoneyWavyLight } from "react-icons/pi";
+import { FaRegBookmark } from "react-icons/fa";
 
 export default function CardJob() {
   const [jobs, setJobs] = useState([]);
 
-  const fetchJobs = async (jobs) => {
+  const fetchJobs = async () => {
     try {
       const response = await axios.get("http://localhost:3000/getAllJobs");
       const data = response.data;
@@ -25,19 +26,27 @@ export default function CardJob() {
   }, []);
 
   return (
-    <div className="py-">
+    <div className="py-5">
       <h1 className="text-lg font-semibold my-[20px]"> Eksplor Job</h1>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* job card */}
-          {jobs.map((item, idx) => (
-            <div className="bg-white shadow-lg rounded-lg border border-gray-200 overflow-hidden transition-shadow duration-300 hover:border-[#FF9100] py-3">
+          {jobs.map((item) => (
+            <div
+              className="bg-white shadow-lg rounded-lg border border-gray-200 overflow-hidden transition-shadow duration-300 hover:border-[#FF9100] py-3"
+              key={item.id}
+            >
               {/* position - company */}
-              <div className="px-6" key={idx}>
-                <h3 className="text-xl font-semibold text-gray-800">
-                  {item.position}
-                </h3>
-                <p className="text-gray-600 mb-1"> {item.company}</p>
+              <div className="flex px-6">
+                <div>
+                  <h3 className="text-xl font-semibold text-gray-800">
+                    {item.position}
+                  </h3>
+                  <p className="text-gray-600 mb-1"> {item.company}</p>
+                </div>
+                <div className="ml-auto mt-2">
+                  <FaRegBookmark />
+                </div>
               </div>
               {/* detail */}
               <div className="mx-6 mt-4">

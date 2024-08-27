@@ -1,34 +1,34 @@
 [
   {
     "name": "Marketing",
-    "imgUrl": "../assets/marketing-sosmed.png"
+    "imgUrl": "https://plus.unsplash.com/premium_photo-1664475926084-d20248544896?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bWFya2V0aW5nfGVufDB8fDB8fHww"
   },
   {
     "name": "IT & Engineering",
-    "imgUrl": "../assets/it-engineering.png"
+    "imgUrl": "https://plus.unsplash.com/premium_photo-1678565869434-c81195861939?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8SVQlMjAlMjYlMjBFbmdpbmVlcmluZ3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "name": "Design & Creative",
-    "imgUrl": "../assets/design-creative.png"
+    "imgUrl": "https://plus.unsplash.com/premium_photo-1661284873147-ed893ed67d03?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8RGVzaWduJTIwJTI2JTIwQ3JlYXRpdmV8ZW58MHx8MHx8fDA%3D"
   },
   {
     "name": "Health & Science",
-    "imgUrl": "../assets/health-science.png"
+    "imgUrl": "https://media.istockphoto.com/id/1689003176/photo/medical-technology-doctor-holding-health-icon-with-dna-electronic-medical-record-digital.webp?b=1&s=612x612&w=0&k=20&c=jQUpbeWCCxdmOCHeAnPwjXmEAoogokaJNikfB6qooD4="
   },
   {
     "name": "Finance & Accounting",
-    "imgUrl": "../assets/finance-accounting.png"
+    "imgUrl": "https://plus.unsplash.com/premium_photo-1679923813998-6603ee2466c5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RmluYW5jZSUyMCUyNiUyMEFjY291bnRpbmd8ZW58MHx8MHx8fDA%3D"
   },
   {
     "name": "Business Development & Sales",
-    "imgUrl": "../assets/business-dev-sales.png"
+    "imgUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEJ1c2luZXNzJTIwRGV2ZWxvcG1lbnQlMjAlMjYlMjBTYWxlc3xlbnwwfHwwfHx8MA%3D%3D"
   },
   {
     "name": "Data & Product Management",
-    "imgUrl": "../assets/data-product-management.png"
+    "imgUrl": "https://images.unsplash.com/photo-1542744173-05336fcc7ad4?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF0YSUyMHByb2R1Y3QlMjBtYW5hZ2VtZW50fGVufDB8fDB8fHww"
   },
   {
     "name": "Admin & Operations",
-    "imgUrl": "../assets/admin.png"
+    "imgUrl": "https://plus.unsplash.com/premium_photo-1683880730745-ed19bbd9ef45?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8b3BlcmF0b3J8ZW58MHx8MHx8fDA%3D"
   }
 ]
