@@ -9,9 +9,6 @@ function App() {
   return (
     <>
       <RouterProvider router={router} />
-      <Navbar />
-      <Dashboard />
-      <Footer />
     </>
   );
 }
