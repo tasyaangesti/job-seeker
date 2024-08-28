@@ -28,7 +28,10 @@ export default function CardJob() {
 
   return (
     <div className="py-5">
-      <h1 className="text-lg font-semibold my-[20px]"> Eksplor Job</h1>
+      <div className=" my-[20px] flex justify-between mr-3">
+        <h1 className="text-lg font-semibold"> Eksplor Job</h1>
+        <h1>sort</h1>
+      </div>
       <div className="container mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* job card */}

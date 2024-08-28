@@ -1,14 +1,17 @@
 import "./App.css";
 import { RouterProvider } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import { router } from "./route";
-import Dashboard from "./view/Dashboard";
+import { PrimeReactProvider } from "primereact/api";
+import "primereact/resources/themes/saga-blue/theme.css";
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";
 
 function App() {
   return (
     <>
-      <RouterProvider router={router} />
+      <PrimeReactProvider>
+        <RouterProvider router={router} />
+      </PrimeReactProvider>
     </>
   );
 }
